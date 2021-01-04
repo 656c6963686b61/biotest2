@@ -25,6 +25,7 @@ import image_23 from "./images/23.jpg";
 import image_24 from "./images/24.png";
 
 /* TODO:
+	- discord test
 	- растежни движения
 	- Тургорни движения
 	- Катаболитни процеси при анаероби

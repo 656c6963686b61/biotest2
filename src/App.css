@@ -1,5 +1,11 @@
 html {
-	background-color: #14213d;
+	background-image: linear-gradient(
+		-225deg,
+		#21295c 0%,
+		#1b3b6f 29%,
+		#065a82 67%,
+		#20264d 100%
+	);
 }
 body {
 	color: white;

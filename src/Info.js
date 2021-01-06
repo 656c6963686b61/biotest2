@@ -59,10 +59,10 @@ import image_51 from "./images/51.jpg";
 export default function info() {
 	return (
 		<div>
-			<h1 className="tochka">Bio Test pri Vikito 2.0</h1>
+			<h1>Bio Test pri Vikito 2.0</h1>
 			<h2>Особености в регулацията на функциите при животните</h2>
 			<ul>
-				<li className="tochka">
+				<li>
 					Същност
 					<ul>
 						<li>
@@ -82,7 +82,7 @@ export default function info() {
 						</li>
 					</ul>
 				</li>
-				<li className="tochka">
+				<li>
 					Йерархичен принцип
 					<ul>
 						<li>
@@ -101,7 +101,11 @@ export default function info() {
 									подчинение
 								</li>
 								<li>
-									<img src={image_2} alt="" />
+									<img
+										className={"middle"}
+										src={image_2}
+										alt=""
+									/>
 								</li>
 								<li>
 									<img src={image_3} alt="" />
@@ -138,7 +142,7 @@ export default function info() {
 							</ul>
 						</li>
 						<li>
-							<img src={image_5} alt="" />
+							<img className={"middle"} src={image_5} alt="" />
 						</li>
 						<li>
 							Хипофизата е разположена в главния мозък под
@@ -209,7 +213,7 @@ export default function info() {
 						</li>
 					</ul>
 				</li>
-				<li className="tochka">
+				<li>
 					Принцип на обратната връзка
 					<ul>
 						<li>Основен принцип е обратната връзка</li>
@@ -255,7 +259,7 @@ export default function info() {
 						</li>
 					</ul>
 				</li>
-				<li className="tochka">
+				<li>
 					Биологично значение
 					<ul>
 						<li>
@@ -281,7 +285,7 @@ export default function info() {
 				Метаболизъм. Анаболитни процеси. Светлинна фаза на фотосинтеза
 			</h2>
 			<ul>
-				<li className="tochka">
+				<li>
 					Метаболизъм
 					<ul>
 						<li>
@@ -313,7 +317,7 @@ export default function info() {
 						</li>
 					</ul>
 				</li>
-				<li className="tochka">
+				<li>
 					Същност
 					<ul>
 						<li>
@@ -338,7 +342,7 @@ export default function info() {
 							</ul>
 						</li>
 						<li>
-							<img src={image_10} alt="" />
+							<img className={"long"} src={image_10} alt="" />
 						</li>
 						<li>
 							Веществата участващи в метаболитните процеси се
@@ -380,17 +384,27 @@ export default function info() {
 						</li>
 						<li>
 							Особености на метаболизма
+							<li>
+								Признаци на сравнение | Анаболитни процеси | Катаболитни процеси
+							</li>
+							<li>
+								Големина на молекулите на реагиращите и на получените вещества | Енергия | Вид на реакциите | АТФ | Поведение на коензими (НАД и НАДФ)
+							</li>
 							<ul>
 								<li>
 									<li>
-										<img src={image_11} alt="" />
+										<img
+											className={"onetotwo"}
+											src={image_11}
+											alt=""
+										/>
 									</li>
 								</li>
 							</ul>
 						</li>
 					</ul>
 				</li>
-				<li className="tochka">
+				<li>
 					Типове обмяна на вещества в зависимост от анаболитните
 					процеси
 					<ul>
@@ -466,7 +480,7 @@ export default function info() {
 						</li>
 					</ul>
 				</li>
-				<li className="tochka">
+				<li>
 					Фотосинтеза
 					<ul>
 						<li>
@@ -508,7 +522,7 @@ export default function info() {
 						</li>
 					</ul>
 				</li>
-				<li className="tochka">
+				<li>
 					Растителни органи, в които се извършва фотосинтеза
 					<ul>
 						<li>Основните растителни органи са листата</li>
@@ -633,7 +647,7 @@ export default function info() {
 						</li>
 					</ul>
 				</li>
-				<li className="tochka">
+				<li>
 					Механизъм на светлинната фаза на фотосинтеза
 					<ul>
 						<li>
@@ -650,7 +664,7 @@ export default function info() {
 							да се върне към изходното си състояние.
 						</li>
 						<li>
-							<img src={image_13} alt="" />
+							<img className={"middle"} src={image_13} alt="" />
 						</li>
 						<li>
 							Светлинната фаза започва с поглъщане на светлинна
@@ -732,7 +746,11 @@ export default function info() {
 									водата.
 								</li>
 								<li>
-									<img src={image_14} alt="" />
+									<img
+										className={"schema"}
+										src={image_14}
+										alt=""
+									/>
 								</li>
 								<li>
 									В тилакоидните мембрани се разполага
@@ -773,7 +791,11 @@ export default function info() {
 											светлинна енергия
 										</li>
 										<li>
-											<img src={image_15} alt="" />
+											<img
+												className={"middle"}
+												src={image_15}
+												alt=""
+											/>
 										</li>
 									</ul>
 								</li>
@@ -781,7 +803,7 @@ export default function info() {
 						</li>
 					</ul>
 				</li>
-				<li className="tochka">
+				<li>
 					Пътища за електронен поток в светлинната фаза
 					<ul>
 						<li>
@@ -815,7 +837,7 @@ export default function info() {
 			<h2>Тъмнинна фаза (Цикъл на Калвин )</h2>
 			<ul>
 				<li>
-					<img src={image_16} alt="" />
+					<img className={"middle"} src={image_16} alt="" />
 				</li>
 				<li>
 					Същност
@@ -835,7 +857,7 @@ export default function info() {
 						</li>
 
 						<li>
-							<img src={image_17} alt="" />
+							<img className={"big"} src={image_17} alt="" />
 						</li>
 					</ul>
 				</li>
@@ -887,7 +909,11 @@ export default function info() {
 									</ul>
 								</li>
 								<li>
-									<img src={image_18} alt="" />
+									<img
+										className={"middle"}
+										src={image_18}
+										alt=""
+									/>
 								</li>
 							</ul>
 						</li>
@@ -978,7 +1004,7 @@ export default function info() {
 							тъмнинната фаза.
 						</li>
 						<li>
-							<img src={image_19} alt="" />
+							<img className={"big"} src={image_19} alt="" />
 						</li>
 					</ul>
 				</li>
@@ -1231,7 +1257,11 @@ export default function info() {
 									</ul>
 								</li>
 								<li>
-									<img src={image_21} alt="" />
+									<img
+										className={"onetotwo"}
+										src={image_21}
+										alt=""
+									/>
 								</li>
 							</ul>
 						</li>
@@ -1461,7 +1491,7 @@ export default function info() {
 			<h2>Растителни пигменти и хормони</h2>
 			<ul>
 				<li>
-					<img src={image_23} alt="" />
+					<img className={"middle"} src={image_23} alt="" />
 				</li>
 				<li>
 					Растителни пигменти
@@ -1547,7 +1577,11 @@ export default function info() {
 									</ul>
 								</li>
 								<li>
-									<img src={image_24} alt="" />
+									<img
+										className={"big"}
+										src={image_24}
+										alt=""
+									/>
 								</li>
 							</ul>
 						</li>
@@ -1970,7 +2004,11 @@ export default function info() {
 									образува овес
 								</li>
 								<li>
-									<img src={image_25} alt="" />
+									<img
+										className={"middle"}
+										src={image_25}
+										alt=""
+									/>
 								</li>
 								<li>
 									Рецепторната зона възприемаща светлината е
@@ -2360,7 +2398,7 @@ export default function info() {
 			<h2>Катаболитни процеси при анаеробни организми.Ферментации</h2>
 			<ul>
 				<li>
-					<img src={image_30} alt="" />
+					<img className={"schema"} src={image_30} alt="" />
 				</li>
 				<li>
 					Типове обмяна в зависимост от катаболитните процеси
@@ -2476,9 +2514,20 @@ export default function info() {
 											редуцира до НАД.Н2
 										</li>
 									</ul>
+									<li>
+										Подговтителна фаза - поглъщане на енергия
+									</li>
+									<li>
+										Окислителна фаза - отделяне на енергия
+									</li>
+
 								</li>
 								<li>
-									<img id={"image31"} src={image_31} alt="" />
+									<img
+										className={"schema"}
+										src={image_31}
+										alt=""
+									/>
 								</li>
 								<li>
 									<img
@@ -2583,7 +2632,7 @@ export default function info() {
 					Видове ферментации
 					<ul>
 						<li>
-							<img id={"image34"} src={image_34} alt="" />
+							<img className={"long"} src={image_34} alt="" />
 						</li>
 						<li>
 							Ферментирали храни
@@ -2691,7 +2740,11 @@ export default function info() {
 							Биологично окисление и окислително фосфорилиране
 						</li>
 						<li>
-							<img src={image_35} alt="" />
+							<img
+								className={"rectangle"}
+								src={image_35}
+								alt=""
+							/>
 						</li>
 					</ul>
 				</li>
@@ -2814,7 +2867,7 @@ export default function info() {
 							оксалоцетната киселина е начален и краен метаболит
 						</li>
 						<li>
-							<img src={image_36} alt="" />
+							<img className={"schema"} src={image_36} alt="" />
 						</li>
 						<li>
 							Етапи:
@@ -2867,7 +2920,11 @@ export default function info() {
 									реагира с нова молекула ацетил-КоА.
 								</li>
 								<li>
-									<img src={image_37} alt="" />
+									<img
+										className={"schema"}
+										src={image_37}
+										alt=""
+									/>
 								</li>
 							</ul>
 						</li>
@@ -2949,7 +3006,11 @@ export default function info() {
 								междинни метаболити на цикъла.
 							</li>
 							<li>
-								<img src={image_38} alt="" />
+								<img
+									className={"middle"}
+									src={image_38}
+									alt=""
+								/>
 							</li>
 						</ul>
 					</li>
@@ -3125,7 +3186,7 @@ export default function info() {
 							</ul>
 						</li>
 						<li>
-							<img src={image_40} alt="" />
+							<img className={"onetotwo"} src={image_40} alt="" />
 						</li>
 					</ul>
 				</li>
@@ -3255,7 +3316,7 @@ export default function info() {
 							</ul>
 						</li>
 						<li>
-							<img src={image_42} alt="" />
+							<img className={"long"} src={image_42} alt="" />
 						</li>
 					</ul>
 				</li>
@@ -3406,7 +3467,7 @@ export default function info() {
 							синтез на ензима
 						</li>
 						<li>
-							<img src={image_39} alt="" />
+							<img src={image_39} id={"image39"} alt="" />
 						</li>
 					</ul>
 				</li>
@@ -3418,7 +3479,15 @@ export default function info() {
 							едновременно под различни форми на контрол.
 						</li>
 						<li>
-							<img src={image_44} alt="" />
+							Форма на хормонална регулация | Същност |
+							Метаболитни пътища, които се регулират по този начин
+						</li>
+						<li>
+							Наличие на субстрат | Алостеричен контрол |
+							Ковалентно модифициране
+						</li>
+						<li>
+							<img className={"long"} src={image_44} alt="" />
 						</li>
 					</ul>
 				</li>
@@ -3436,7 +3505,12 @@ export default function info() {
 							клетъчно равнище.
 						</li>
 						<li>
-							<img src={image_45} alt="" />
+							<img className={"schema"} src={image_45} alt="" />
+						</li>
+						<li>
+							Глокозо-6-фосфатът може да бъде метаболизиран до: |
+							Пируватът може да бъде метаболизиран до: |
+							Ацетил-КоА може да бъде насочен към:
 						</li>
 						<li>
 							<img src={image_46} alt="" />
@@ -3470,7 +3544,11 @@ export default function info() {
 									която се транспортиратлипидите в кръвния ток
 								</li>
 								<li>
-									<img src={image_47} alt="" />
+									<img
+										className={"rectangle"}
+										src={image_47}
+										alt=""
+									/>
 								</li>
 							</ol>
 						</li>
@@ -3503,7 +3581,11 @@ export default function info() {
 									нива чрез глюкогенеза
 								</li>
 								<li>
-									<img src={image_48} alt="" />
+									<img
+										className={"rectangle"}
+										src={image_48}
+										alt=""
+									/>
 								</li>
 							</ul>
 						</li>
@@ -3523,7 +3605,11 @@ export default function info() {
 									захранван
 								</li>
 								<li>
-									<img src={image_49} alt="" />
+									<img
+										className={"rectangle"}
+										src={image_49}
+										alt=""
+									/>
 								</li>
 							</ul>
 						</li>
